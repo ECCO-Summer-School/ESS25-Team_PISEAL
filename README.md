@@ -80,9 +80,3 @@ ECCO’s dynamical sea surface height can be decomposed into manometric (mass-re
 
 
 Our final powerpoint slide can be found here: [FINAL PROJECT SLIDE](https://drive.google.com/file/d/1nhWoUrIOIigZVH29XEUw1yShPFtxQBmy/view?usp=sharing)
-
-
-```math
-\eta = \eta_m + \eta_s = \frac{p_b}{\rho_0 g} - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{\rho'}dz^*
-```
-
