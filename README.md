@@ -44,15 +44,23 @@ Global sea level has been rising at approximately 4.5 mm per year in the 21st ce
 - What are their relative importance?
 
 ## Approaches
-Sea Level = manometric & steric components ([Piecuch et al. 2019](https://doi.org/10.1029/2019JC015339)):
+Sea Level = manometric ($\eta_m$) & steric ($\eta_s$) components ([Piecuch et al. 2019](https://doi.org/10.1029/2019JC015339)):
 
-# $\eta = \eta_m + \eta_s = \frac{p_b}{\rho_0 g} - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{\rho'}dz^* $
+```math
+\eta = \eta_m + \eta_s = \frac{p_b}{\rho_0 g} - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{\rho'}dz^*
+```
 
-Steric = thermosteric & halosteric components:
+Steric = thermosteric ($\eta_{s-T}$) & halosteric ($\eta_{s-S}$) components:
 
-# $\eta_{s-T} = - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{ [\rho(S_r,T,p) - \rho(S_r,T_r,p)] }dz^* $ 
-# $\eta_{s-S} = - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{ [\rho(S,T_r,p) - \rho(S_r,T_r,p)] }dz^* $
 
+```math
+\eta_{s-T} = - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{ \left[\rho(S_r,T,p) - \rho(S_r,T_r,p)\right] }dz^* 
+```
+
+
+```math
+\eta_{s-S} = - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{ \left[\rho(S,T_r,p) - \rho(S_r,T_r,p)\right] }dz^*
+```
 
 ## Data and Resources
 
@@ -73,4 +81,8 @@ ECCO’s dynamical sea surface height can be decomposed into manometric (mass-re
 
 Our final powerpoint slide can be found here: [FINAL PROJECT SLIDE](https://drive.google.com/file/d/1nhWoUrIOIigZVH29XEUw1yShPFtxQBmy/view?usp=sharing)
 
+
+```math
+\eta = \eta_m + \eta_s = \frac{p_b}{\rho_0 g} - \frac{1}{\rho_0}\frac{H+\eta}{H}\int_{-H}^0{\rho'}dz^*
+```
 
